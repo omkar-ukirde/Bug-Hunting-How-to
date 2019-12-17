@@ -10,6 +10,7 @@ Step 2-
  Tools:
   1. Run amass 
       command = amass enum -d domain_name
+      To give domains from file just use amass enum -df file_name. 
   2. Run findomain
       command = findomain -t domain_name
       Note: It is creating error, it will not use API in first go. Only when it gets error on first go then it will use API. 
